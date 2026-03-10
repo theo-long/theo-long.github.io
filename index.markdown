@@ -5,9 +5,9 @@
 layout: default
 ---
 
-I'm a PhD student at Yale University in the Computer Science Department, working with [Alex Lew](https://alexlew.net).
+I'm a PhD student at Yale University in the Computer Science Department, advised by [Alex Lew](https://alexlew.net).
 
-My interests are in designing tools and algorithms to improve, automate, and scale probabilistic reasoning.
+My interests are in designing tools and algorithms to improve, automate, and scale probabilistic reasoning. My research aims to develop ways to represent and compute with uncertainty in a principled way.
 
 
 
