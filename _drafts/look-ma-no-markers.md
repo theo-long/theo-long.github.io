@@ -3,6 +3,7 @@ layout: default
 title: "Notes on 'Look Ma, no markers: holistic performance capture without the hassle'"
 date: "2024-02-10"
 tags: ["paper", "machine learning", "pose estimation", "graphics", "motion capture"]
+published: false
 ---
 
 [Paper Link](https://arxiv.org/pdf/2410.11520)

@@ -15,3 +15,18 @@ A non-exhaustive list of questions I'm thinking about:
 - How can we parallelize inherently sequential inference algorithms?
 - What are composable and intuitive priors for 2D and 3D shapes?
 
+## Recent Posts
+{% assign drafts = site.drafts | default: "" | split: "" %}
+{% assign all_posts = site.posts | concat: drafts | sort: "date" | reverse %}
+
+<ul>
+  {% for post in all_posts limit:10 %}
+    <li>
+      <span style="color: #666;">{{ post.date | date: "%b %d, %Y" }}</span> 
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {% if post.path contains '_drafts/' %}
+        <strong style="color: #d9534f;"> [DRAFT]</strong>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
