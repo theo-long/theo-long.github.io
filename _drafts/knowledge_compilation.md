@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Efficient Discrete Inference with Knowledge Compilation"
 date: "2026-03-18"
 tags: ["probabilistic programming", "discrete inference", "knowledge compilation"]

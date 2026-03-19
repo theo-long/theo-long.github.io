@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Notes on 'Look Ma, no markers: holistic performance capture without the hassle'"
 date: "2024-02-10"
 tags: ["paper", "machine learning", "pose estimation", "graphics", "motion capture"]
