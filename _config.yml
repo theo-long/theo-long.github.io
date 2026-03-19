@@ -28,7 +28,6 @@ twitter_username: tl__559
 github_username:  theo-long
 
 # Build settings
-remote_theme: "pages-themes/minimal"
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
